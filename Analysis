@@ -1,1 +1,26 @@
-This is the analysis for the MatPlotLib assignment
+The Power of Plots - Pymaceutical Analysis
+
+  When examining the box plot we created, it is clear that Capomulin and Ramicane were more effective
+than Infubinol and Ceftamin in reducing the overall final tumor volume. Not only were the medians for 
+Caponmulin and Ramicane (38.1 and 36.6 respectively), but also the interquartile ranges (7.8 and 9.1 
+respectively) for both are lower than the other drugs, suggesting that most of the data for these two
+drugs are closer to the median than the data for Infubinol and Ceftamin. This means that data for
+Infubinol and Ceftamin are more spread out and less consistent than the data for Capomulin and Ramicane. 
+  The next thing I noticed when caluclating the quartiles and outliers was that there was only one
+outlier in the entire dataset between the four drugs we were asked to account for. This generally means
+that the data for each drug was relatively consistent and can be trusted more than if the data was
+spread out and had numerous outliers. The outlier for this particular set was within the Infubinol 
+datapoints. The tumor volume was much lower than the rest of the datapoints, suggesting that this
+type of result isn't something we can come to expect when using this drug. 
+  Lastly, to further the findings from above, Capomulin and Ramicane proved to be the best at fighting
+and reducing tumor volumes due to large number of measurements collected compared to the rest of the drugs.
+Not only do they both have significantly lower medians and IQRs than the rest of the drugs, but also they 
+have more measurements(230 and 228 respectively). With larger sets of data, outliers  are much more likely 
+to exist, but the fact that there are zero outliers among Capomulin and Ramicane suggests that the data is 
+consistent, accurate and can be trusted.
+  If I could make additional graphs that would give us a better sense of the effectiveness of each drug, I would use the
+line plot we created that shows each mouse's tumor growth over time for a specific drug and create more similar
+graphs for each drug. I could select 5 random IDs per drug and look at the data to see how each drug affected
+tumor growth of a particular mouse over time. This would provide clear data that would indentify which drug
+was the most effective over the course of the experiment. 
+  
